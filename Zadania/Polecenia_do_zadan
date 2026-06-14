@@ -1,0 +1,30 @@
+Wstęp: Jak używać plików test.
+
+Krok 1: Zainstaluj pytest. Jedną z następujących komend w konsoli.
+    - pip install pytest
+    - python -m pip install pytest
+    - py -m pip install pytest
+
+Krok 2: Polecenie pytest. Gdy nie użyjemy nazwy pliku test odpali sie na wszystkich plikach testowych naraz.
+    - pytest [nazwa pliku testowego]
+    - python -m pytest [nazwa pliku testowego]
+    - py -m pytest [nazwa pliku testowego]
+
+
+Zadanie 1: Konto Bankowe
+Twoim zadaniem jest zaimplementowanie prostej klasy KontoBankowe w pliku zadanie_1.py, która symuluje podstawowe operacje finansowe. Klasa powinna zawierać mechanizmy walidacji danych, aby zapobiec niepoprawnym operacjom (np. ustawieniu ujemnego salda początkowego czy próbie wypłaty kwoty większej niż dostępne środki).
+
+Zadanie 2: Przetwarzanie ocen z pliku CSV
+Twoim zadaniem jest uzupełnienie funkcji wczytaj_oceny(sciezka) w pliku zadanie_2.py. Funkcja ta służy do odczytywania danych o wynikach studentów zapisanych w formacie CSV, walidacji tych danych oraz kalkulacji końcowych statystyk (procentów i zaliczenia).
+Format pliku wejściowego:
+Plik CSV posiada nagłówek i składa się z trzech kolumn: imie, punkty, max_punktow
+
+Zadanie 3: System rezerwacji miejsc w sali kinowej
+Twoim zadaniem jest uzupełnienie brakującej logiki w klasie SalaKinowa w pliku zadanie_3.py. Klasa ta zarządza dostępnością miejsc na pojedynczej sali kinowej, gdzie miejsca są numerowane sekwencyjnie od 1 do liczba_miejsc.
+
+Zadanie 4: Koszyk zakupowy
+Twoim zadaniem jest uzupełnienie brakującej logiki w klasie Koszyk w pliku zadanie_4.py. Klasa ta symuluje działanie internetowego koszyka zakupowego, umożliwiając dodawanie, usuwanie oraz wyliczanie wartości produktów z uwzględnieniem rabatów.
+Struktura wewnętrzna self.produkty to słownik, w którym kluczami są nazwy produktów (str), a wartościami zagnieżdżone słowniki przechowujące "cena" (float/int) oraz "ilosc" (int).
+
+Zadanie 5: Prosty system biblioteczny
+Twoim zadaniem jest uzupełnienie brakującej logiki w klasach Ksiazka oraz Biblioteka w pliku zadanie_5.py. Projekt symuluje uproszczony system zarządzania zasobami bibliotecznymi (dodawanie, usuwanie, wyszukiwanie oraz wypożyczanie i zwrot książek).

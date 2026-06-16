@@ -1,11 +1,13 @@
 Wstęp: Jak używać plików test.
 
 Krok 1: Zainstaluj pytest. Jedną z następujących komend w konsoli.
+
     - pip install pytest
     - python -m pip install pytest
     - py -m pip install pytest
 
 Krok 2: Polecenie pytest. Gdy nie użyjemy nazwy pliku test odpali sie na wszystkich plikach testowych naraz.
+
     - pytest [nazwa pliku testowego]
     - python -m pytest [nazwa pliku testowego]
     - py -m pytest [nazwa pliku testowego]
